@@ -77,7 +77,6 @@ const items = [
 
 export default class SearchList extends Component {
   render() {
-    const { filter } = this.state
     return (
       <Card>
         <Heading color={COLORS.yellow[300]}>FilterList Component</Heading>

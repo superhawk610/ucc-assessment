@@ -15,7 +15,6 @@ const jsonUri = 'https://jsonplaceholder.typicode.com/users/1'
 
 export default class FetchJson extends Component {
   render() {
-    const { json } = this.state
     return (
       <Card>
         <Heading color={COLORS.pink[300]}>FetchJson Component</Heading>
